@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="aaT-iV-x6Z" customClass="LoaderView" customModule="AL_KHALIL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ika-if-gDn">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TCb-SE-ohZ" customClass="NVActivityIndicatorView" customModule="NVActivityIndicatorView">
+                            <rect key="frame" x="157" y="359" width="100" height="100"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="1OJ-e0-lsy"/>
+                                <constraint firstAttribute="width" constant="100" id="5Q8-CO-3rN"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                    <color key="value" red="0.7573977113" green="0.1014090553" blue="0.040295265609999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="string" keyPath="typeName" value="lineScale"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="TCb-SE-ohZ" firstAttribute="centerY" secondItem="Ika-if-gDn" secondAttribute="centerY" id="cwZ-S3-KXA"/>
+                        <constraint firstItem="TCb-SE-ohZ" firstAttribute="centerX" secondItem="Ika-if-gDn" secondAttribute="centerX" id="yYM-sH-jwB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="JBo-5o-E8f" firstAttribute="bottom" secondItem="Ika-if-gDn" secondAttribute="bottom" id="BC5-n4-fKn"/>
+                <constraint firstItem="JBo-5o-E8f" firstAttribute="trailing" secondItem="Ika-if-gDn" secondAttribute="trailing" id="i9b-TL-ojb"/>
+                <constraint firstItem="Ika-if-gDn" firstAttribute="leading" secondItem="JBo-5o-E8f" secondAttribute="leading" id="oSp-sz-ecT"/>
+                <constraint firstItem="Ika-if-gDn" firstAttribute="top" secondItem="JBo-5o-E8f" secondAttribute="top" id="tIJ-0d-Btc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="JBo-5o-E8f"/>
+            <connections>
+                <outlet property="mainLoader" destination="TCb-SE-ohZ" id="WdJ-AK-LRa"/>
+            </connections>
+            <point key="canvasLocation" x="-145" y="3"/>
+        </view>
+    </objects>
+</document>

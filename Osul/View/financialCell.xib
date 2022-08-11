@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="STC-Bold.ttf">
+            <string>STC-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="223" id="KGk-i7-Jjw" customClass="financialCell" customModule="Osul" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="394" height="223"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="394" height="223"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ubi-Wz-cG9">
+                        <rect key="frame" x="0.0" y="0.0" width="394" height="222"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="دائن" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T5-PG-BfX">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="oIq-Tc-fej"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hsV-qC-FnN">
+                                <rect key="frame" x="80" y="0.0" width="1" height="222"/>
+                                <color key="backgroundColor" white="0.83031892119999995" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="F2D-O8-PQB"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مدين" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bm-tW-iQo">
+                                <rect key="frame" x="81" y="0.0" width="80" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="11S-2I-Qt3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0j-pp-60f">
+                                <rect key="frame" x="161" y="0.0" width="1" height="222"/>
+                                <color key="backgroundColor" white="0.83031892119999995" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="k03-PN-Ssl"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بيان" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMb-Le-pnG">
+                                <rect key="frame" x="162" y="0.0" width="120" height="222"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x0J-T1-Ky8">
+                                <rect key="frame" x="282" y="0.0" width="1" height="222"/>
+                                <color key="backgroundColor" white="0.83435894690000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="9jw-oA-Tdh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التاريخ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9aF-Ap-1Zl">
+                                <rect key="frame" x="283" y="0.0" width="90" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="fo5-Vg-cO0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELK-Cx-rWN">
+                                <rect key="frame" x="373" y="0.0" width="1" height="222"/>
+                                <color key="backgroundColor" white="0.83329765990000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="uvu-Gh-0ZX"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="م" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2y-Ds-0ho">
+                                <rect key="frame" x="374" y="0.0" width="20" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="fdp-MM-Abt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAe-58-Xmf">
+                        <rect key="frame" x="0.0" y="222" width="394" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="lVD-4X-nOs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="QAe-58-Xmf" secondAttribute="trailing" id="4KU-XF-8Dz"/>
+                    <constraint firstAttribute="bottom" secondItem="QAe-58-Xmf" secondAttribute="bottom" id="E13-dX-whg"/>
+                    <constraint firstItem="Ubi-Wz-cG9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ggw-y2-Lfz"/>
+                    <constraint firstItem="QAe-58-Xmf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Mup-o1-x3U"/>
+                    <constraint firstAttribute="trailing" secondItem="Ubi-Wz-cG9" secondAttribute="trailing" id="Yu1-zN-nS7"/>
+                    <constraint firstItem="QAe-58-Xmf" firstAttribute="top" secondItem="Ubi-Wz-cG9" secondAttribute="bottom" id="eeQ-YX-Y83"/>
+                    <constraint firstItem="Ubi-Wz-cG9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="zk5-iV-IqZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="191.30434782608697" y="130.24553571428572"/>
+        </tableViewCell>
+    </objects>
+</document>

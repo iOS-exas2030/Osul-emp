@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D3B6CD1-3697-457F-A81B-7BF190E2E9B7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Osul/Controller/In Menu/Contract/ContractDetailsVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ContractDetailsVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69 - a17f98cee0cfdc56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Osul.ContractDetailsVC.mainLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Osul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Osul/Osul/Controller/In%20Menu/Contract/ContractDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69 - f8ed9d3ec4683bda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Osul.ContractDetailsVC.mainLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Osul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Osul/Osul/Controller/In%20Menu/Contract/ContractDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69 - 4100132d8c442582"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Osul.ContractDetailsVC.mainLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Osul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Osul/Osul/Controller/In%20Menu/Contract/ContractDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69 - 5c84d9f3963f9d35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Osul.ContractDetailsVC.mainLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Osul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Osul/Osul/Controller/In%20Menu/Contract/ContractDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69 - e8d5b5c71c7ed9ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Osul.ContractDetailsVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Osul.ContractDetailsVC"
+                  moduleName = "Osul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Osul/Osul/Controller/In%20Menu/Contract/ContractDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1137">
+               </Location>
+               <Location
+                  uuid = "BEE760EB-9263-43CC-9BAB-DC54E67A0A69 - 430849bde34cb805"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Osul.ContractDetailsVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Osul.ContractDetailsVC&gt;"
+                  moduleName = "Osul"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/Osul/Osul/Controller/In%20Menu/Contract/ContractDetailsVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "1081">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

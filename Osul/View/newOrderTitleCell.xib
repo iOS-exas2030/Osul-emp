@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="STC-Bold.ttf">
+            <string>STC-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="newOrderTitleCell" rowHeight="190" id="KGk-i7-Jjw" customClass="newOrderTitleCell" customModule="Osul" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="190"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PFT-R3-W0D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="189"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="نوع المشروع" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ctm-sO-BkB">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="DSR-pM-RQ5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="16"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTz-5I-f09">
+                                <rect key="frame" x="80" y="0.0" width="1" height="189"/>
+                                <color key="backgroundColor" white="0.83031892119999995" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="HSJ-lp-cY9"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ الطلب" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7Q-b8-99g">
+                                <rect key="frame" x="81" y="0.0" width="90" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="VQH-ro-SrC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kgg-AY-SCJ">
+                                <rect key="frame" x="171" y="0.0" width="1" height="189"/>
+                                <color key="backgroundColor" white="0.83435894690000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="2c7-mh-C1Z"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="إسم العميل" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxX-bn-dBp">
+                                <rect key="frame" x="172" y="0.0" width="117" height="189"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cu-Fj-vOw">
+                                <rect key="frame" x="289" y="0.0" width="1" height="189"/>
+                                <color key="backgroundColor" white="0.83329765990000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="UCu-8N-3JA"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="م" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgi-dA-ncl">
+                                <rect key="frame" x="290" y="0.0" width="30" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="XhE-0d-Ira"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Myc-NS-8oK">
+                        <rect key="frame" x="0.0" y="189" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="zBL-Cm-tsT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Myc-NS-8oK" secondAttribute="bottom" id="H3i-XQ-JI6"/>
+                    <constraint firstItem="PFT-R3-W0D" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="H7k-op-KYX"/>
+                    <constraint firstItem="Myc-NS-8oK" firstAttribute="top" secondItem="PFT-R3-W0D" secondAttribute="bottom" id="Jxn-Hr-Z4W"/>
+                    <constraint firstAttribute="trailing" secondItem="Myc-NS-8oK" secondAttribute="trailing" id="NUv-8f-Bak"/>
+                    <constraint firstAttribute="trailing" secondItem="PFT-R3-W0D" secondAttribute="trailing" id="VTa-5T-a6a"/>
+                    <constraint firstItem="PFT-R3-W0D" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="X8p-P6-r07"/>
+                    <constraint firstItem="Myc-NS-8oK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qJM-45-2Dd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="N7Q-b8-99g" id="Ut0-mf-qn1"/>
+                <outlet property="nameLabel" destination="sxX-bn-dBp" id="efd-Uz-nCs"/>
+                <outlet property="typeLabel" destination="Ctm-sO-BkB" id="FRw-Ge-Pou"/>
+            </connections>
+            <point key="canvasLocation" x="152" y="82"/>
+        </tableViewCell>
+    </objects>
+</document>

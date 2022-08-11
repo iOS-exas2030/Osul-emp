@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="STC-Bold.ttf">
+            <string>STC-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="212" id="KGk-i7-Jjw" customClass="employeTitleCell" customModule="Osul" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="212"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="212"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEg-m9-sPn">
+                        <rect key="frame" x="0.0" y="211" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="xHI-Cd-CMk"/>
+                        </constraints>
+                    </view>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sQI-Zk-ixh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="211"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الوظيفة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRm-dD-VdE">
+                                <rect key="frame" x="0.0" y="0.0" width="151" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="uU4-Hk-yAR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xge-Wi-CCK">
+                                <rect key="frame" x="151" y="0.0" width="1" height="211"/>
+                                <color key="backgroundColor" white="0.83435894690000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="XDF-M7-IKg"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اسم الموظف" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9z-nw-EOG">
+                                <rect key="frame" x="152" y="0.0" width="137" height="211"/>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="suM-Ha-hJK">
+                                <rect key="frame" x="289" y="0.0" width="1" height="211"/>
+                                <color key="backgroundColor" white="0.83329765990000004" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="aLf-l3-fp6"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="م" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="73e-HZ-2Xz">
+                                <rect key="frame" x="290" y="0.0" width="30" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="ciJ-2P-uqB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="STC-Bold" family="STC" pointSize="17"/>
+                                <color key="textColor" red="0.39607843139999999" green="0.1843137255" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="zEg-m9-sPn" secondAttribute="trailing" id="0Cl-QU-DV2"/>
+                    <constraint firstItem="sQI-Zk-ixh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5hn-68-UUE"/>
+                    <constraint firstItem="zEg-m9-sPn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="QTo-I0-6bA"/>
+                    <constraint firstItem="zEg-m9-sPn" firstAttribute="top" secondItem="sQI-Zk-ixh" secondAttribute="bottom" id="SYe-0g-5ES"/>
+                    <constraint firstAttribute="bottom" secondItem="zEg-m9-sPn" secondAttribute="bottom" id="ffU-tT-SkJ"/>
+                    <constraint firstItem="sQI-Zk-ixh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="g5k-I6-OiX"/>
+                    <constraint firstAttribute="trailing" secondItem="sQI-Zk-ixh" secondAttribute="trailing" id="hXs-oT-pXu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainLabel" destination="s9z-nw-EOG" id="Cya-Nz-oes"/>
+                <outlet property="subLabel" destination="pRm-dD-VdE" id="wua-zV-NZt"/>
+                <outlet property="widthConstrian" destination="uU4-Hk-yAR" id="UWZ-a6-mIs"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="107.8125"/>
+        </tableViewCell>
+    </objects>
+</document>
