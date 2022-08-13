@@ -15,7 +15,7 @@ import MBCircularProgressBar
 import CoreLocation
 import MapKit
 
-class ContractDetailsVC: UIViewController,UITextViewDelegate , UITextFieldDelegate, MKMapViewDelegate ,CLLocationManagerDelegate{
+class ContractDetailsVC: BaseVC,UITextViewDelegate , UITextFieldDelegate, MKMapViewDelegate ,CLLocationManagerDelegate{
     
     //MARK: - IBOutlets
     @IBOutlet weak var mainLabel: UILabel!

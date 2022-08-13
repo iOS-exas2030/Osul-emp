@@ -11,7 +11,7 @@ import JSSAlertView
 import TransitionButton
 import Kingfisher
 import Alamofire
-class GeneralSettingVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate,UITextFieldDelegate {
+class GeneralSettingVC: BaseVC, UIImagePickerControllerDelegate, UINavigationControllerDelegate,UITextFieldDelegate {
     
     //MARK: - IBOutlets
     @IBOutlet weak var nameTextField: UITextField!

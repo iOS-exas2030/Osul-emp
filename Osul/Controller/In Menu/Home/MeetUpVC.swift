@@ -16,7 +16,7 @@ import Alamofire
 import Kingfisher
 import MobileCoreServices
 
-class MeetUpVC: UIViewController , UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+class MeetUpVC: BaseVC , UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
 
     @IBOutlet weak var chatView: UIView!
     @IBOutlet weak var assignView: UIView!

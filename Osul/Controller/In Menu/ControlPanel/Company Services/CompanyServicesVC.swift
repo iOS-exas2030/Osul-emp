@@ -12,7 +12,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class CompanyServicesVC: UIViewController {
+class CompanyServicesVC: BaseVC {
     
     //MARK: - IBOutlets
     @IBOutlet weak var CompanyServicesTableView: UITableView!

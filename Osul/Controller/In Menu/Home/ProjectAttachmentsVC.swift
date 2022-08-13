@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class ProjectAttachmentsVC: UIViewController {
+class ProjectAttachmentsVC: BaseVC {
     var projectAtt = [ProjectAttachment]()
     var levelData : LevelDetailsModel?
     var addData : MoreLevelDetailsModel?

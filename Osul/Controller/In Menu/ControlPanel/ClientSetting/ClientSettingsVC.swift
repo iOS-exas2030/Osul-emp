@@ -11,7 +11,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class ClientSettingsVC: UIViewController ,UITextFieldDelegate{
+class ClientSettingsVC: BaseVC ,UITextFieldDelegate{
 
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

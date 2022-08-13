@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class receiptVC: UIViewController {
+class receiptVC: BaseVC {
 
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var addNewView: UIView!

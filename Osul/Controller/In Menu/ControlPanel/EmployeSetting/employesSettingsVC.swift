@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class employesSettingsVC: UIViewController ,UITextFieldDelegate {
+class employesSettingsVC: BaseVC ,UITextFieldDelegate {
 
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

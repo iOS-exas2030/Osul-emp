@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class phasesSettingsVC: UIViewController {
+class phasesSettingsVC: BaseVC {
  
    //MARK: - IBOutlets
    @IBOutlet weak var tableView: UITableView!

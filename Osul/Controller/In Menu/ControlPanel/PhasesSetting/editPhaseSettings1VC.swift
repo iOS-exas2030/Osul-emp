@@ -11,7 +11,7 @@ import JSSAlertView
 import TransitionButton
 import MBCircularProgressBar
 
-class editPhaseSettings1VC: UIViewController {
+class editPhaseSettings1VC: BaseVC {
     
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

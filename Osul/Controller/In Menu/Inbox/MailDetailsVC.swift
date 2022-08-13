@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class MailDetailsVC: UIViewController {
+class MailDetailsVC: BaseVC {
 
     //MARK: - IBOutlets
     @IBOutlet weak var mainTitleLabel: UILabel!

@@ -11,7 +11,7 @@ import SideMenu
 import JSSAlertView
 import TransitionButton
 
-class ContractVC: UIViewController ,UITextFieldDelegate {
+class ContractVC: BaseVC ,UITextFieldDelegate {
     
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

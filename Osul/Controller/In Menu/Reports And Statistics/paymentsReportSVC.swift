@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class paymentsReportSVC: UIViewController {
+class paymentsReportSVC: BaseVC {
 
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

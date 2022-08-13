@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class ContractSettingVC: UIViewController {
+class ContractSettingVC: BaseVC {
     
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

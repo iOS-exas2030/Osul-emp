@@ -12,7 +12,7 @@ import SideMenu
 import JSSAlertView
 import TransitionButton
 
-class MailVC: UIViewController /*, SwipeTableViewCellDelegate*/ {
+class MailVC: BaseVC /*, SwipeTableViewCellDelegate*/ {
     
     
     //MARK: - IBOutlets

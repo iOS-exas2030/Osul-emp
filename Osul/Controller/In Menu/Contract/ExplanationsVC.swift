@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class ExplanationsVC: UIViewController {
+class ExplanationsVC: BaseVC {
     
     //MARK: - IBOutlets
     @IBOutlet weak var explanationTableView: UITableView!

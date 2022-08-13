@@ -10,7 +10,7 @@ import SideMenu
 import JSSAlertView
 import TransitionButton
 
-class HomeVC: UIViewController, UIGestureRecognizerDelegate ,UITextFieldDelegate {
+class HomeVC: BaseVC, UIGestureRecognizerDelegate ,UITextFieldDelegate {
 
     @IBOutlet weak var projectCollectionView: UICollectionView!
     private let itemsPerRow: CGFloat = 2

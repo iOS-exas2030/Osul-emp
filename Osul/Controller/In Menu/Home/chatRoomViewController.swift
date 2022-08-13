@@ -10,7 +10,7 @@ import Kingfisher
 import TransitionButton
 import JSSAlertView
 
-class chatRoomViewController: UIViewController, UITextFieldDelegate ,  UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIGestureRecognizerDelegate {
+class chatRoomViewController: BaseVC, UITextFieldDelegate ,  UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIGestureRecognizerDelegate {
     
     //MARK: - IBOutlets
     @IBOutlet weak var tableViewConst: NSLayoutConstraint!

@@ -11,7 +11,7 @@ import JSSAlertView
 import TransitionButton
 import DLRadioButton
 
-class addEmployeVC: UIViewController ,UITextFieldDelegate{
+class addEmployeVC: BaseVC ,UITextFieldDelegate{
     
     //MARK: - IBOutlets
     @IBOutlet weak var passwordView: UIView!

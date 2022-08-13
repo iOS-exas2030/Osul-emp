@@ -13,7 +13,7 @@ import JSSAlertView
 import NVActivityIndicatorView
 import TransitionButton
 
-class NewOrdersVC: UIViewController {
+class NewOrdersVC: BaseVC {
     
     //MARK: - IBOutlets
     @IBOutlet weak var tableView: UITableView!

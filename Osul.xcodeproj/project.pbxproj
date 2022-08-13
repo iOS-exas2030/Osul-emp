@@ -208,6 +208,7 @@
 		188615B824F834F900D28A18 /* assignEmployeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188615B724F834F900D28A18 /* assignEmployeCell.swift */; };
 		188615BA24F9DF0A00D28A18 /* AssignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188615B924F9DF0A00D28A18 /* AssignModel.swift */; };
 		188615BE24FB373D00D28A18 /* MoreLevelDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188615BD24FB373D00D28A18 /* MoreLevelDetailsModel.swift */; };
+		1886F23428A7FB8A00FB2A9B /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1886F23328A7FB8A00FB2A9B /* BaseVC.swift */; };
 		188C59FA2538E8CB0003E7A4 /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C59F92538E8CB0003E7A4 /* FirebaseModel.swift */; };
 		188C59FC2538E8D50003E7A4 /* messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C59FB2538E8D40003E7A4 /* messages.swift */; };
 		188C5A0B253A4B2C0003E7A4 /* chatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C5A0A253A4B2C0003E7A4 /* chatRoomViewController.swift */; };
@@ -472,6 +473,7 @@
 		188615B724F834F900D28A18 /* assignEmployeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignEmployeCell.swift; sourceTree = "<group>"; };
 		188615B924F9DF0A00D28A18 /* AssignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignModel.swift; sourceTree = "<group>"; };
 		188615BD24FB373D00D28A18 /* MoreLevelDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLevelDetailsModel.swift; sourceTree = "<group>"; };
+		1886F23328A7FB8A00FB2A9B /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		188C59F92538E8CB0003E7A4 /* FirebaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
 		188C59FB2538E8D40003E7A4 /* messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messages.swift; sourceTree = "<group>"; };
 		188C5A0A253A4B2C0003E7A4 /* chatRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatRoomViewController.swift; sourceTree = "<group>"; };
@@ -787,6 +789,7 @@
 				1653EC4124AE687000CF7B15 /* LaunchScreen.storyboard */,
 				1681E87B24C75F0000DC9DD9 /* colorPalette.plist */,
 				1653EC4424AE687000CF7B15 /* Info.plist */,
+				1886F23328A7FB8A00FB2A9B /* BaseVC.swift */,
 			);
 			path = Osul;
 			sourceTree = "<group>";
@@ -1407,6 +1410,7 @@
 				1653EC5524AEBF4700CF7B15 /* ReportsAndStatisticsVC.swift in Sources */,
 				16B80522250DA46D00ECF173 /* MainLoader.swift in Sources */,
 				188615BE24FB373D00D28A18 /* MoreLevelDetailsModel.swift in Sources */,
+				1886F23428A7FB8A00FB2A9B /* BaseVC.swift in Sources */,
 				16678CDC24F6E9B400222D23 /* MailModel.swift in Sources */,
 				1677E09A24AEE4B700237156 /* FinancialAccountsCell.swift in Sources */,
 				1800ACA3258FB1D40008FE28 /* ChatModel.swift in Sources */,

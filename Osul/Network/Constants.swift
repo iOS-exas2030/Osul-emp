@@ -28,7 +28,7 @@ struct Constants {
     
     static let baseURL = "https://appcrm.exas2030.com/app/"
     static let baseURL2 = "https://appcrm.exas2030.com/"
-    static let baseImageUrl = "https://appcrm.exas2030.com/api/users/upload_photo"
+    static let baseImageUrl = "https://appcrm.exas2030.com/app/users/upload_photo"
 //
   //  https://appcrm.exas2030.com/app/
     static let baseColor = #colorLiteral(red: 0.3960784314, green: 0.1843137255, blue: 0.5568627451, alpha: 1)

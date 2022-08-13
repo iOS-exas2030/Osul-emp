@@ -8,7 +8,7 @@
 
 import UIKit
 import TransitionButton
-class smsLogsVC: UIViewController {
+class smsLogsVC: BaseVC {
     
     
     @IBOutlet weak var segmentFinancial: UISegmentedControl!

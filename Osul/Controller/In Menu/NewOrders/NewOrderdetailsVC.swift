@@ -12,7 +12,7 @@ import TransitionButton
 import CoreLocation
 import MapKit
 
-class NewOrderdetailsVC: UIViewController , UITextFieldDelegate,  MKMapViewDelegate ,CLLocationManagerDelegate {
+class NewOrderdetailsVC: BaseVC , UITextFieldDelegate,  MKMapViewDelegate ,CLLocationManagerDelegate {
 
     //MARK: - IBOutlets
     

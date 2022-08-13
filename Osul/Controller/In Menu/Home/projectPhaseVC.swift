@@ -13,7 +13,7 @@ import JSSAlertView
 import CoreLocation
 import MapKit
 
-class projectPhaseVC: UIViewController , UIGestureRecognizerDelegate, UITextFieldDelegate, MKMapViewDelegate ,CLLocationManagerDelegate  {
+class projectPhaseVC: BaseVC , UIGestureRecognizerDelegate, UITextFieldDelegate, MKMapViewDelegate ,CLLocationManagerDelegate  {
 
     @IBOutlet weak var projectPhaseCollectionView: UICollectionView!
     var projectId = ""

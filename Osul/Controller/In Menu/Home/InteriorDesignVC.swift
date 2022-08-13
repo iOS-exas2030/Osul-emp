@@ -11,7 +11,7 @@ import JSSAlertView
 import TransitionButton
 
 
-class InteriorDesignVC: UIViewController {
+class InteriorDesignVC: BaseVC {
      
     
     @IBOutlet weak var completeButton: UIButton!

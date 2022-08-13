@@ -10,7 +10,7 @@ import UIKit
 import JSSAlertView
 import TransitionButton
 
-class CompanyCategoryVC: UIViewController {
+class CompanyCategoryVC: BaseVC {
     
     //MARK: - IBOutlets
     var header = ["تعديل","اسم الوظيفة/الصلاحية","م" ]
