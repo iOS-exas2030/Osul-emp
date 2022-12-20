@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -67,10 +67,10 @@
                                         <real key="value" value="15"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
-                                        <color key="value" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.3921568627" green="0.1764705882" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
-                                        <color key="value" red="0.74509803919999995" green="0.1176470588" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" red="0.3921568627" green="0.1764705882" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="value">
                                         <real key="value" value="70"/>
@@ -106,11 +106,11 @@
                                 </constraints>
                             </imageView>
                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.shield.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Xy1-zq-3Zf">
-                                <rect key="frame" x="0.0" y="316.5" width="40" height="39"/>
+                                <rect key="frame" x="0.0" y="322.5" width="40" height="36"/>
                                 <color key="tintColor" red="0.21625781780144396" green="0.8375634517766497" blue="0.3771289543701436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="8ZT-mh-T8G"/>
-                                    <constraint firstAttribute="height" constant="40" id="VIf-dm-wbf"/>
+                                    <constraint firstAttribute="height" constant="37" id="VIf-dm-wbf"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -119,7 +119,7 @@
                             <constraint firstItem="2Mo-3M-9L5" firstAttribute="top" secondItem="9Tm-AW-36X" secondAttribute="top" constant="5" id="Gwv-ao-Oxq"/>
                             <constraint firstItem="GiT-KB-dVx" firstAttribute="top" secondItem="zgx-MW-3oj" secondAttribute="bottom" id="KlT-yD-pN0"/>
                             <constraint firstItem="zgx-MW-3oj" firstAttribute="top" secondItem="9Tm-AW-36X" secondAttribute="top" constant="10" id="NPn-VT-Evf"/>
-                            <constraint firstAttribute="bottom" secondItem="Xy1-zq-3Zf" secondAttribute="bottom" constant="5" id="UQU-BK-O7L"/>
+                            <constraint firstAttribute="bottom" secondItem="Xy1-zq-3Zf" secondAttribute="bottom" constant="2" id="UQU-BK-O7L"/>
                             <constraint firstItem="2Mo-3M-9L5" firstAttribute="leading" secondItem="9Tm-AW-36X" secondAttribute="leading" constant="5" id="Uto-Gm-VBn"/>
                             <constraint firstItem="Xy1-zq-3Zf" firstAttribute="leading" secondItem="9Tm-AW-36X" secondAttribute="leading" id="ZY9-PR-2Qe"/>
                             <constraint firstItem="GiT-KB-dVx" firstAttribute="centerX" secondItem="9Tm-AW-36X" secondAttribute="centerX" id="ZZ3-GQ-45c"/>
@@ -165,7 +165,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="checkmark.shield.fill" catalog="system" width="128" height="118"/>
+        <image name="checkmark.shield.fill" catalog="system" width="128" height="119"/>
         <image name="mail (2)" width="42.5" height="42.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -25,11 +25,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Override point for customization after application launch.
         IQKeyboardManager.shared().isEnabled = true
-        let navigationBarAppearace = UINavigationBar.appearance()
-        navigationBarAppearace.barTintColor =  #colorLiteral(red: 0.3960784314, green: 0.1843137255, blue: 0.5568627451, alpha: 1)
-        UINavigationBar.appearance().isTranslucent = false
         FirebaseApp.configure()
         Messaging.messaging().delegate = self
+        if #available(iOS 13.0, *) {
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithOpaqueBackground()
+            appearance.backgroundColor = #colorLiteral(red: 0.3960784314, green: 0.1843137255, blue: 0.5568627451, alpha: 1)
+            appearance.titleTextAttributes = [.font: UIFont.boldSystemFont(ofSize: 20.0),
+                                              .foregroundColor: UIColor.white]
+            // Customizing our navigation bar
+            UINavigationBar.appearance().tintColor = .white
+            UINavigationBar.appearance().standardAppearance = appearance
+            UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        } else {
+            let navigationBarAppearace = UINavigationBar.appearance()
+            navigationBarAppearace.barTintColor =  #colorLiteral(red: 0.3960784314, green: 0.1843137255, blue: 0.5568627451, alpha: 1)
+            UINavigationBar.appearance().isTranslucent = false
+        }
 
         if let notification = launchOptions?[.remoteNotification] as? [String: AnyObject] {
             // If your app wasn’t running and the user launches it by tapping the push notification, the push notification is passed to your app in the launchOptions

@@ -117,7 +117,7 @@ class LogInVC: UIViewController , UITextFieldDelegate {
 
     
     @IBAction func virsionInfo(_ sender: Any) {
-        self.view.makeToast("AL-KHALIL EMP Version 7.0(3)", duration: 5.0, position: .bottom)
+        self.view.makeToast("Osul-EMP Version 1.0(1)", duration: 5.0, position: .bottom)
     }
     
     @IBAction func passwordView(_ sender: UIButton) {

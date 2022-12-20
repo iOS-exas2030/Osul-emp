@@ -21,19 +21,19 @@ class EnteranceVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
-        img1.snp.makeConstraints { (make) in
-            make.width.height.equalTo(100)
-            make.centerY.equalTo(self.view).inset(-40)
-            make.centerX.equalTo(self.view)
-        }
-        
-        img2.snp.makeConstraints { (make) in
-//            make.left.bottom.right.equalTo(self.view)
-            make.height.equalTo(100)
-            make.width.equalTo(150)
-            make.centerY.equalTo(self.view).inset(60)
-            make.centerX.equalTo(self.view)
-        }
+//        img1.snp.makeConstraints { (make) in
+//            make.width.height.equalTo(100)
+//            make.centerY.equalTo(self.view).inset(-40)
+//            make.centerX.equalTo(self.view)
+//        }
+//        
+//        img2.snp.makeConstraints { (make) in
+////            make.left.bottom.right.equalTo(self.view)
+//            make.height.equalTo(100)
+//            make.width.equalTo(150)
+//            make.centerY.equalTo(self.view).inset(60)
+//            make.centerX.equalTo(self.view)
+//        }
         
         Animations.slideDown(view: img1)
         Animations.slideUp(view: img2)
